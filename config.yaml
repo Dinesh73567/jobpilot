@@ -27,9 +27,9 @@ search:
 filters:
   salary_min: 1200000
   salary_max: 2000000
-  experience_min: 2
+  experience_min: 3
   experience_max: 5
-  skills_match_pct: 60
+  skills_match_pct: 20
   skip_if_salary_hidden: false
   my_skills:
     - "React Native"
