@@ -1,0 +1,110 @@
+linkedin:
+  email: "dineshbabu5999@gmail.com"
+  password: "Krishna@4061"
+
+naukri:
+  email: "dineshbabu5999@gmail.com"
+  password: "Krishna@4061"
+
+search:
+  titles:
+    - "Software Engineer"
+    - "Backend Developer"
+    - "React Native Developer"
+    - "React Native TypeScript"
+    - "Full Stack React Native"
+    - "SDE2 React Native"
+    - "React Native Node.js"
+    - "React.js Full Stack"
+    - "Frontend Engineer React TypeScript"
+    - "Mobile App Developer React Native"
+  location:
+    - "Bangalore"
+    - "Hyderabad"
+  remote: true
+  date_posted: "week"
+
+filters:
+  salary_min: 1200000
+  salary_max: 2000000
+  experience_min: 2
+  experience_max: 5
+  skills_match_pct: 60
+  skip_if_salary_hidden: false
+  my_skills:
+    - "React Native"
+    - "React.js"
+    - "Next.js"
+    - "TypeScript"
+    - "JavaScript"
+    - "Node.js"
+    - "Fastify"
+    - "Express.js"
+    - "Python"
+    - "Redux Toolkit"
+    - "Redux Persist"
+    - "Context API"
+    - "WatermelonDB"
+    - "MongoDB"
+    - "Offline-First Architecture"
+    - "Tailwind CSS"
+    - "NativeWind"
+    - "Storybook"
+    - "REST APIs"
+    - "WebSocket"
+    - "Axios"
+    - "iOS"
+    - "Android"
+    - "Xcode"
+    - "CocoaPods"
+    - "Gradle"
+    - "Native Modules"
+    - "Jest"
+    - "React Native Testing Library"
+    - "Maestro"
+    - "TDD"
+    - "Git"
+    - "CI/CD"
+    - "Firebase"
+    - "Sentry"
+
+blacklist:
+  companies:
+    - "Tilicho"
+
+limits:
+  daily_apply: 30
+
+# Personal details used to answer Naukri screening / chatbot questions.
+# FILL THESE IN before running live with chatbot flow.
+personal:
+  phone: "+919381273567" # e.g. "+919999999999" (with country code, no spaces)
+  total_experience_years: 4 # your total years of professional experience
+  relevant_experience_years: 3 # years of React Native / target stack experience
+  current_ctc_lpa: 10 # current CTC in lakhs (e.g. 10 = ₹10 LPA)
+  expected_ctc_lpa: 15 # expected CTC in lakhs
+  notice_period_days: 60 # notice period in days (0 if immediately available)
+  current_location: "Bangalore"
+  willing_to_relocate: true
+  highest_qualification: "B.Tech"
+
+resume:
+  path: "./assets/resume.pdf"
+
+schedule:
+  cron: "0 9,18 * * 1-5"
+  background_interval_min: 30
+
+bot:
+  dry_run: false
+  headless: false
+  delay_min_sec: 0.8
+  delay_max_sec: 2.5
+  max_retries: 2
+  timeout_sec: 30
+
+output:
+  csv_path: "./output/applied_jobs.csv"
+
+notifications:
+  enabled: false
